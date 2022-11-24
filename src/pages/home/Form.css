@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem;
+  color: white;
+  clear: both;
+}
+
+.form input {
+  border: none;
+  border-radius: 0.5rem;
+  width: 20rem;
+  height: 3rem;
+}
+
+.form button {
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: rgb(50, 150, 200);
+  height: 3rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,15 @@
+.detail-address {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  align-content: center;
+}
+
+.detail-address button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(13, 110, 253);
+  padding: 1rem;
+  margin-top: 1rem;
+}

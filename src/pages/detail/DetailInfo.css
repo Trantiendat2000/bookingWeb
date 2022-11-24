@@ -1,0 +1,22 @@
+.box-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: rgb(191, 217, 255);
+  height: 15rem;
+}
+
+.box-book > div {
+  font-size: large;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.box-book > button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(13, 110, 253);
+  padding: 1rem;
+}

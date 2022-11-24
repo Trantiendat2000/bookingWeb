@@ -1,0 +1,15 @@
+.navbar-item {
+  display: inline-block;
+  margin-right: 5rem;
+  margin-top: 1rem;
+}
+
+.navbar-item > a {
+  color: white;
+}
+
+.active {
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 30%;
+}

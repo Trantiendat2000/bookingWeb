@@ -1,0 +1,15 @@
+.city {
+  position: relative;
+}
+
+.city-text {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  color: white;
+}
+
+img {
+  border-radius: 20px;
+  cursor: pointer;
+}

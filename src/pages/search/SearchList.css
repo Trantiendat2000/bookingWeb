@@ -1,0 +1,68 @@
+.search-list {
+  float: right;
+  width: 75%;
+}
+
+.search-list > div {
+  border: 1px groove;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.search-list h3 {
+  color: rgb(13, 110, 253);
+  cursor: pointer;
+}
+
+.search-list span {
+  background-color: rgb(255, 180, 0);
+  color: white;
+}
+
+.search-list .free-cancel {
+  color: rgb(255, 180, 0);
+}
+.container {
+  content: "";
+  clear: right;
+  /* display: block; */
+}
+
+.rate-fee {
+  position: relative;
+}
+
+.fee {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
+  width: 100%;
+}
+
+.fee * {
+  float: right;
+  clear: both;
+}
+
+.fee button {
+  color: white;
+  background-color: rgb(13, 110, 253);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.fee p:first-child {
+  font-size: 2rem;
+}
+
+.rate p {
+  float: left;
+}
+
+.rate i {
+  float: right;
+}

@@ -1,0 +1,45 @@
+.header-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 5px solid rgb(255, 251, 0);
+  border-radius: 10px;
+  margin: -2rem 0rem 2rem 0rem;
+  padding: 0rem 5rem 0rem 5rem;
+  color: black;
+  background-color: white;
+}
+
+.header-input > button {
+  color: white;
+  background-color: rgb(50, 150, 200);
+  margin: 0.5rem;
+  border: none;
+  height: fit-content;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.header-input > div {
+  padding: 1rem;
+  opacity: 0.5;
+}
+
+.header-input > div > input {
+  border: none;
+}
+
+.room-input > input {
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+.date-input > input {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+div > input:hover {
+  cursor: text;
+  border-radius: 10px;
+}

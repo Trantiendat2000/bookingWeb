@@ -1,0 +1,19 @@
+.header {
+  padding: 2rem;
+  margin-top: -1rem;
+  padding-bottom: -1rem;
+}
+
+.header > h1,
+h3,
+button {
+  margin-top: 0.5rem;
+}
+
+.header > button {
+  color: white;
+  background-color: rgb(50, 150, 200);
+  height: 3rem;
+  cursor: pointer;
+  border: none;
+}

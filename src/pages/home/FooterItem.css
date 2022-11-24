@@ -1,0 +1,9 @@
+.footer-item {
+  color: rgb(50, 150, 200);
+  padding: 0.5rem;
+}
+
+.footer-item:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
